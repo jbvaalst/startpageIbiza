@@ -21,6 +21,9 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 0;
+  background-color: rgb(18, 16, 126);
+  height: 100vh;
+  /*position: relative;*/
 }
 
 h1 {
@@ -49,7 +52,6 @@ a:hover {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: repeat(auto-fill, 320px);
-  grid-template-rows: 1fr 1fr 1fr;
 }
 
 ul {
@@ -90,3 +92,16 @@ li:hover {
     transform: translate3d(2px, 0, 0);
   }
 }
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  .background{
+    background-image: url(Ibiza_stad.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-color: rgb(18, 16, 126);
+    height: 100%;
+  }
+}
+
