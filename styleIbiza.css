@@ -106,6 +106,10 @@ html {
   background-color: whitesmoke;
 }
 
+h2 {
+  font-size: 1.5em;
+}
+
   .background{
     background-image: url(Ibiza_stad.jpg);
     background-size: cover;
@@ -115,3 +119,4 @@ html {
     height: 100%;
   }
 }
+
