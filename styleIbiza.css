@@ -1,5 +1,6 @@
 html {
-  font: 22px "Raleway", Helvetica, Arial, sans-serif;
+  font: 22px 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
   height: 100%;
   justify-content: center;
   margin: 0;
@@ -64,6 +65,7 @@ ul {
 li:first-child {
   font-weight: bold;
   line-height: 2em;
+  text-transform: uppercase;
 }
 
 li:first-child:hover {
@@ -95,6 +97,15 @@ li:hover {
 
 /* On screens that are 600px wide or less, the background color is olive */
 @media screen and (max-width: 600px) {
+html {
+  font: 18px 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  height: 100%;
+  justify-content: center;
+  margin: 0;
+  background-color: whitesmoke;
+}
+
   .background{
     background-image: url(Ibiza_stad.jpg);
     background-size: cover;
@@ -104,4 +115,3 @@ li:hover {
     height: 100%;
   }
 }
-
